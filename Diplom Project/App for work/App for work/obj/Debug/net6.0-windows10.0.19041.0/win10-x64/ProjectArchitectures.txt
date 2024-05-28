@@ -1,0 +1,1 @@
+C:\Диплом\Дипломный проект\App for work\App for work\App for work.csproj;x64
