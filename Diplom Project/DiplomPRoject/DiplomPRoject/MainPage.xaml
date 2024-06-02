@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DiplomPRoject.MainPage"
+             BackgroundColor="White">
+
+    <!--<StackLayout
+        WidthRequest="300"
+        HorizontalOptions="Center"
+        VerticalOptions="CenterAndExpand">
+        <Image Source="C:\DiplomGit\Diplom\Diplom Project\DiplomPRoject\DiplomPRoject\Resources\Images\logo.png" HeightRequest="75" WidthRequest="75" Margin="0,20,0,50"/>
+        
+        
+        <Entry Placeholder="Введите логин" 
+               Keyboard="Email" 
+               HorizontalOptions="Center" 
+               TextColor="Black"/>
+        <Entry Placeholder="Введите пароль" IsPassword="True" HorizontalOptions="Center" TextColor="Black"/>
+
+        <Button Text="Войти" Clicked="LoginButton_Clicked" BackgroundColor = "Green" TextColor="White"/>
+        <Label Text="Зарегестрироваться" 
+               TextDecorations="Underline"
+               TextColor="Blue"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               FontSize="16"
+               Margin="0,0,0,0"/>
+        <Label Text="Экстренный вызов" 
+               TextDecorations="Underline"
+               TextColor="Blue"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               FontSize="16"
+               Margin="0,20,0,0"/>
+    </StackLayout>-->
+
+
+
+
+    <WebView x:Name="webViewMap" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Red"/>
+
+
+
+
+</ContentPage>
